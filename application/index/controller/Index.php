@@ -5,9 +5,9 @@ class Index
 {
     public function index()
     {
-        echo '我是测试数据123';
+        return 123456;
     }
-    public function getInfo()
+    public function getinfo()
     {
         return {
             type: 8002,
@@ -18,6 +18,6 @@ class Index
                 a: '二维数据1',
                 b: '二维数据2'
             }
-        }
+        };
     }
 }
